@@ -8,13 +8,9 @@ inputs:
     description: "Your video Id"
     required: true
   videoTitle:
-    description: "Title for the video"
+    description: "Title for the video. counter available : {watch} | {like} | {dislike} | {comment} | {subscribe}"
     required: false
-    default: "THIS VIDEO HAS BEEN WATCHED {counter} TIMES"
-  counter:
-    description: "subscribe|like|dislike|comment|view"
-    required: false
-    default: "view"
+    default: "THIS VIDEO HAS BEEN WATCHED {watch} TIMES"
   channelId:
     description: "Your channelId"
     required: false
