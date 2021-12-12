@@ -18,6 +18,18 @@ inputs:
   channelId:
     description: "Your channelId"
     required: false
+  refreshToken:
+    description: "Your refresh token"
+    required: true
+  clientSecret:
+    description: "Your client secret"
+    required: true
+  redirectUri:
+    description: "Your redirect uri"
+    required: true
+  clientId:
+    description: "Your client id"
+    required: true
 outputs:
   log:
     description: "New video title"
