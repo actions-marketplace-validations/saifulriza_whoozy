@@ -7,7 +7,7 @@ inputs:
   videoId:
     description: "Your video Id"
     required: true
-  title:
+  videoTitle:
     description: "Title for the video"
     required: false
     default: "THIS VIDEO HAS BEEN WATCHED {counter} TIMES"
