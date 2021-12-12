@@ -1,0 +1,26 @@
+name: "Whoozy"
+description: "Youtube counter and updater"
+inputs:
+  apiKey:
+    description: "Your api Key"
+    required: true
+  videoId:
+    description: "Your video Id"
+    required: true
+  title:
+    description: "Title for the video"
+    required: false
+    default: "THIS VIDEO HAS BEEN WATCHED {counter} TIMES"
+  counter:
+    description: "subscribe|like|dislike|comment|view"
+    required: false
+    default: "view"
+  channelId:
+    description: "Your channelId"
+    required: false
+outputs:
+  log:
+    description: "New video title"
+runs:
+  using: "node17"
+  main: "dist/index.js"
