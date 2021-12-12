@@ -34,5 +34,5 @@ outputs:
   log:
     description: "New video title"
 runs:
-  using: "node17"
+  using: "node16"
   main: "dist/index.js"
